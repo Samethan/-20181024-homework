@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scn =new Scanner(System.in);
+        String str= scn.next();
+        switch (str){
+            case"spring":
+                System.out.println(2+"~"+4+"月");
+                break;
+            case"summer":
+                System.out.println(5+"~"+7+"月");
+                break;
+            case"fall":
+                System.out.println(8+"~"+10+"月");
+                break;
+            case"winter":
+                System.out.println(11+"~"+1+"月");
+                break;
+        }
+    }
+}
