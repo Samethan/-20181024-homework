@@ -7,7 +7,10 @@ public class Main {
         int a=scn.nextInt();
         int b=scn.nextInt();
         int result=0;
-        for (int i=a;i<=b;i=i+2){
+        for (int i=a;i<=b;i++){
+            if(i%2==0) {
+            continue;
+            }
             result=result+i;
         }
         System.out.println(result);
@@ -15,4 +18,3 @@ public class Main {
 
     }
 }
-
